@@ -105,8 +105,6 @@ const CountryList = () => {
         </div>
             
         <div className="dash-container">
-            {/* <AlertBar open={isAlertOpen} onClose={handleAlertClose} alertMeta={alertMeta}/> */}
-            {/* <Button variant="outlined" color="primary" onClick={openCreateDialog}>Add new</Button> */}
             <div className="left-container">
             <StudentFormDialog open={true} handleClose={closeDialog} handleSubmit={handleSubmit}
                                selected={selected}/>

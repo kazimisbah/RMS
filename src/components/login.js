@@ -31,13 +31,15 @@ function login(){
       };
     return(
         <div className="login-container">
+            <div className="logpage-grading">Routine Management System</div>
+
         <div className="row justify-content-md-center">
          <div className="col-md-3 col-md-auto">
           <div className="text-center border border-light p-5 m-10" >
 
               <p className="h4 mb-4">Sign in</p>
 
-              <input type="email" id="defaultLoginFormEmail" className="form-control mb-4" placeholder="E-mail" required/>
+              <input type="email" id="defaultLoginFormEmail" className="form-control mb-4" placeholder="User ID" required/>
 
               <input type="password" id="defaultLoginFormPassword" className="form-control mb-4" placeholder="Password" required/>
 

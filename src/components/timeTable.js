@@ -1,10 +1,17 @@
 import React from "react";
+import {Link} from "@reach/router";
+
 import './component.css'
 
 function timeTable(){
     return(
       <div className="table-container">
-        <div className="heading"> Section C</div>
+        <div className="view-table">
+        <Link to={`/`}>
+            Log Out
+            </Link>
+        </div>
+        <div className="table-heading"> Section B</div>
         <table>
         <tr>
           <th className="tableHeader">Day</th>
@@ -19,21 +26,22 @@ function timeTable(){
         </tr>
         <tr>
           <td>MONDAY</td>
-          <td>Maths</td>
-          <td>IT Workshop</td>
-          <td>Analog</td>
+          <td>Maths <br></br> (PP)</td>
+          <td>IT Workshop <br></br>(SDS)<br></br> https://us02web.zoom.us/j/2925829711?pwd=eXVLdlIrbGoxRDkwN3Z3bEpLemExZz09</td>
+          <td>Analog<br></br>(GP) </td>
           <td></td>
-          <td>Digital</td>
-          <td>SDP</td>
-          <td>SDP</td>
+          <td>Digital<br></br>(MD)</td>
+          <td>SDP<br></br>(RJP)</td>
+          <td>SDP<br></br>(RJP)</td>
           <td>Project(App Dev)</td>
           
         </tr>
         <tr>
         <td>TUESDAY</td>
-          <td>TRW</td>
-          <td>Math</td>
-          <td>DS</td>
+          <td>TRW<br></br>(BG)</td>
+          <td>Math<br></br>(AKDS)<br></br> https://zoom.us/j/93619737685?pwd=VXdJMm96QVNqNFRlT3JXZFN3OURZZz09
+</td>
+          <td>DS<br></br>(APM)<br></br>https://meet.google.com/bzp-owwf-ozr </td>
           <td></td>
           <td>Analog</td>
           <td>Workshop Lab </td>

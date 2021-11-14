@@ -1,15 +1,8 @@
-//React imports
 import React from 'react';
-//Lodash imports
 import _ from "lodash/fp";
-//Form imports
 import {useForm} from "react-hook-form";
-//Material UI imports
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
-import Dialog from '@material-ui/core/Dialog';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogTitle from '@material-ui/core/DialogTitle';
 
 const StudentFormDialog = (props) => {
     const {register, handleSubmit, errors} = useForm();
@@ -19,9 +12,6 @@ const StudentFormDialog = (props) => {
     };
 
     return (
-        // <Dialog fullWidth={true} open={props.open} onClose={props.handleClose} >
-        //     <DialogTitle id="form-dialog-title">Routine Management System </DialogTitle>
-        //     <DialogContent>
               <div>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <TextField
@@ -116,8 +106,6 @@ const StudentFormDialog = (props) => {
                     </Button>
                 </form>
                 </div>
-        //     </DialogContent>
-        // </Dialog>
     );
 };
 
