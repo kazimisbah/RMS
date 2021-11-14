@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 //Material UI imports
 import Button from "@material-ui/core/Button";
 //Local imports
-import {createStudent, getAllStudents, removeStudent, updateStudent} from "../services/country-http.service";
+import {createStudent, getAllStudents, removeStudent, updateStudent} from "../services/routine-http.service";
 import StudentFormDialog from "./student-form-dialog.component";
 import {StudentTable} from "./student-table.component";
 import {AlertBar} from "./alert-bar.component";
@@ -11,7 +11,7 @@ import {Link} from "@reach/router";
 
 import './component.css'
 
-const CountryList = () => {
+const StudentList = () => {
     const [rows, setRows] = useState([]);
     const [alertMeta, setAlertMeta] = useState({severity: '', message: ''});
     const [isCountryListManipulated, setCountryListManipulated] = useState(false);
@@ -120,4 +120,4 @@ const CountryList = () => {
     );
 };
 
-export default CountryList;
+export default StudentList;

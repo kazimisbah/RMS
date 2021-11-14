@@ -16,7 +16,7 @@ function login(){
         console.log('fdsfdsfdsf', email)
 
 
-        if(email == "kazi@intellicar.in" && password == "admin"){
+        if(email == "admin" && password == "admin"){
             console.log("trueeee")
             window.location.href = '/students';
         }else if(window.Students){

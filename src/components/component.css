@@ -44,7 +44,7 @@ table {
     text-align: center;
     /* margin-left: 53rem; */
     margin-top: 20px;
-    background: yellow;
+    background: #ff3547;
     width: 144px;
     padding: 13px;
   }
@@ -86,7 +86,7 @@ table {
     text-align: center;
   }
   .table-container{
-    margin-top: 14rem;
+    margin-top: 4rem;
   }
   .table-heading{
     text-align: center;

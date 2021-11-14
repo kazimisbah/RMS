@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import LinearProgress from '@material-ui/core/LinearProgress';
 //Local imports
-import {getStudent} from "../services/country-http.service";
+import {getStudent} from "../services/routine-http.service";
 
 const StudentDetails = (props) => {
     // Accordion show/hide

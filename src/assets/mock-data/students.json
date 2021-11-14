@@ -1,11 +1,19 @@
 {
   "students": [
     {
-      "id": "kazi123",
+      "id": "sabir123",
       "password": "123456",
       "confpassword": "123456",
-      "sname": "Kazi Misbah",
-      "rollno": "1",
+      "sname": "Kazi Sabir",
+      "rollno": "11",
+      "sec": "A"
+    },
+    {
+      "id": "Amit123",
+      "password": "111111",
+      "confpassword": "111111",
+      "sname": "Amit Kumar",
+      "rollno": "03",
       "sec": "A"
     }
   ]
