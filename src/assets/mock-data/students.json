@@ -1,0 +1,12 @@
+{
+  "students": [
+    {
+      "id": "kazi123",
+      "password": "123456",
+      "confpassword": "123456",
+      "sname": "Kazi Misbah",
+      "rollno": "1",
+      "sec": "A"
+    }
+  ]
+}
